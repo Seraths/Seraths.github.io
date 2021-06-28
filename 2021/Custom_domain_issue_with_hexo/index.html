@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="description" content="&lt;blockquote&gt;
-&lt;p&gt;Due to me struggling with building this blog for more than 10 hours, I finally know which part I got wrong. This is just a short post to remind myself about how to deal with the same i">
+&lt;p&gt;Due to me struggling with building this blog for more than 10 hours, I finally know which part I got wrong. This is just a short post to remind myself about how to deal with the same ">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
   <title>Add custom domain to your hexo blog | ZOPH3A</title>
 
@@ -73,25 +73,25 @@
   <div><blockquote>
 <p>Due to me struggling with building this blog for more than 10 hours, I finally know which part I got wrong. This is just a short post to remind myself about how to deal with the same issue (if this ever happen again).</p>
 </blockquote>
-<br>
-<br>
-
-<h3 id="Prerequisite"><a href="#Prerequisite" class="headerlink" title="Prerequisite"></a>Prerequisite</h3><ol>
+<p><br> <br></p>
+<h3 id="prerequisite">Prerequisite</h3>
+<ol type="1">
 <li>git installed</li>
 <li>node.js installed</li>
 <li>your domain (e.g. buy it from some domain selling website like Godaddy etc.)</li>
 <li>assume your website is built on github pages (i.e. username.github.io)</li>
 </ol>
-<h3 id="Step-1-Change-the-nameservers-of-your-domain"><a href="#Step-1-Change-the-nameservers-of-your-domain" class="headerlink" title="Step 1: Change the nameservers of your domain"></a>Step 1: Change the nameservers of your domain</h3><p>Follow this <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=eDI1Xp7Llv8">Youtube video</a> to build the github pages and manage your domain/nameservers.</p>
-<br>
-
-<h3 id="Step-2-Create-hexo-blog-folder"><a href="#Step-2-Create-hexo-blog-folder" class="headerlink" title="Step 2: Create hexo blog folder"></a>Step 2: Create hexo blog folder</h3><p>Follow this <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/35668237">Zhihu Post</a>, ignore the customizaiton of CNAME section.</p>
-<br>
-
-<h3 id="Step-3-Add-CNAME"><a href="#Step-3-Add-CNAME" class="headerlink" title="Step 3: Add CNAME"></a>Step 3: Add CNAME</h3><p>After you follow step1, you should acquire a blog on github pages, despite that it’s not connected to your webstie because the CNAME is not in the root directory.</p>
+<h3 id="step-1-change-the-nameservers-of-your-domain">Step 1: Change the nameservers of your domain</h3>
+<p>Follow this <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=eDI1Xp7Llv8">Youtube video</a> to build the github pages and manage your domain/nameservers.</p>
+<p><br></p>
+<h3 id="step-2-create-hexo-blog-folder">Step 2: Create hexo blog folder</h3>
+<p>Follow this <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/35668237">Zhihu Post</a>, ignore the customizaiton of CNAME section.</p>
+<p><br></p>
+<h3 id="step-3-add-cname">Step 3: Add CNAME</h3>
+<p>After you follow step1, you should acquire a blog on github pages, despite that it's not connected to your webstie because the CNAME is not in the root directory.</p>
 <p>Thus, do the following:</p>
-<p>Add the CNAME file into ‘\source’ folder (in you local hexo blog folder) - yes, there is no ‘&#39;source’ folder in your github (if you already deploy hexo onto github), don’t worry the github directory is actually inside the ‘\source’ and that’s why you can’t see it.</p>
-<p>Deploy again using ‘hexo d’ and wait for a while. You will see that your github pages is now connected with your custom domain.</p>
+<p>Add the CNAME file into '' folder (in you local hexo blog folder) - yes, there is no ''source' folder in your github (if you already deploy hexo onto github), don't worry the github directory is actually inside the '' and that's why you can't see it.</p>
+<p>Deploy again using 'hexo d' and wait for a while. You will see that your github pages is now connected with your custom domain.</p>
 </div>
 </article>
 
